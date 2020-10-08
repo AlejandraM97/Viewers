@@ -30,7 +30,7 @@ import OHIFDicomRtExtension from '@ohif/extension-dicom-rt';
 import OHIFDicomMicroscopyExtension from '@ohif/extension-dicom-microscopy';
 import OHIFDicomPDFExtension from '@ohif/extension-dicom-pdf';
 import OHIFDicomP10DownloaderExtension from '@ohif/extension-dicom-p10-downloader';
-import { DeepSARSAiExtension } from './../../../extensions/deepsars-ai';
+import { TeleBivl2abExtension } from './../../../extensions/tele-bivl2ab';
 /*
  * Default Settings
  */
@@ -50,7 +50,7 @@ const appProps = {
     OHIFDicomSegmentationExtension,
     OHIFDicomRtExtension,
     OHIFDicomP10DownloaderExtension,
-    DeepSARSAiExtension,
+    TeleBivl2abExtension,
   ],
 };
 

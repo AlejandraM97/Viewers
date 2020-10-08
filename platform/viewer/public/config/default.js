@@ -14,10 +14,10 @@ window.config = {
         style: {
           display: 'block',
           textIndent: '-9999px',
-          background: 'url(/ohif/assets/DS.png)',
+          background: 'url(/ohif/assets/bivl2ab.png)',
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
-          width: '200px',
+          width: '300px',
         },
       });
     },

@@ -7,47 +7,51 @@
  */
 
 :root {
-    /* Interface UI Colors */
-    --default-color: #7cb342;
-    --hover-color: #558b2f;
-    --active-color: #558b2f;
-    --ui-border-color: #7cb342;
-    --ui-border-color-dark: #33691e;
-    --ui-border-color-active: #558b2f;
-    --primary-background-color: #000000;
-    --box-background-color: #689f38;
+  /* Interface UI Colors */
+  --default-color: #bfe498;
+  --hover-color: #ffffff;
+  --active-color: #446f51;
+  --ui-border-color: #3c8060;
+  --ui-border-color-dark: #3c8060;
+  --ui-border-color-active: #ffffff;
+  --primary-background-color: #000000;
+  --box-background-color: #446f51;
 
-    /* Common palette */
-    --ui-yellow: #E29E4A;
-    --ui-sky-blue: #7cb342;
-    /* State palette */
-    --ui-state-error: #FFCCCC;
-    --ui-state-error-border: #993333;
-    --ui-state-error-text: #661111;
-    --ui-gray-light: #7cb342;
-    --ui-gray: #558b2f;
-    --ui-gray-dark: #33691e;
-    --ui-gray-darker: #151A1F;
-    --ui-gray-darkest: #14202A;
+  --text-primary-color: #fff;
+  --text-secondary-color: #87c298;
+  --input-background-color: #5e886a;
+  --input-placeholder-color: #ffffff;
 
-    /* Text Colors */
-    --text-primary-color: #ffffff;
-    --text-secondary-color: #aed581;
-    --input-background-color: #33691e;
-    --input-placeholder-color: #d3d3d3;
-    --large-numbers-color: #9ccc65;
+  --table-hover-color: #5e886a;
+  --table-text-primary-color: #ffffff;
+  --table-text-secondary-color: #87c298;
 
-    --text-color-active: #000000;
-    --text-disabled-color: #878787;
+  --large-numbers-color: #87c298;
+  --text-color-active: #000;
+  --text-disabled-color: #878787;
 
-    --input-placeholder-color--hover: #33691e;
-    --input-placeholder-color: #d3d3d3;
+  --state-error: #ffcccc;
+  --state-error-border: #ffcccc;
+  --state-error-text: #ffcccc;
 
-    --table-hover-color: #558b2f;
-    --table-text-primary-color: #ffffff;
-    --table-text-secondary-color: #aed581;
+  /* Common palette */
+  --ui-yellow: #e29e4a;
+  --ui-sky-blue: #87c298;
 
-    --state-error: #FFCCCC;
-    --state-error-border: #FFCCCC;
-    --state-error-text: #FFCCCC;
+  /* State palette */
+  --ui-state-error: #ffcccc;
+  --ui-state-error-border: #993333;
+  --ui-state-error-text: #661111;
+  --ui-gray-lighter: #446f51;
+  --ui-gray-light: #446f51;
+  --ui-gray: #264034;
+  --ui-gray-dark: #335a3f;
+  --ui-gray-darker: #151a1f;
+  --ui-gray-darkest: #14202a;
+
+  --calendar-day-color: #a6dd6b;
+  --calendar-day-border-color: #a6dd6b;
+  --calendar-day-active-hover-background-color: #446f51;
+  --calendar-main-color: #264034;
+  --viewport-border-thickness: 1px;
 }
